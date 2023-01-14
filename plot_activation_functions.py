@@ -140,7 +140,7 @@ def plot():
     ax9.plot(x, gelu_approx(x), '-k')
     ax9.set_title("GELU approximate function")
     fig.tight_layout()
-    plt.savefig("Activation functions.jpeg")
+#     plt.savefig("Activation functions.jpeg")
     plt.show()
 
 
